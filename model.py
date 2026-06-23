@@ -6,7 +6,6 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix
-from sklearn.decomposition import PCA
 
 # 1. Load Data
 df = pd.read_csv('data.csv')
